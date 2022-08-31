@@ -27,5 +27,5 @@
 7. Formulario de contacto
 
 ## Links
-1. Figma: https://www.figma.com/file/yoT3EkOjfgZJtpBUTH79Jt/Figma-Test?node-id=0%3A1
+1. Figma: https://www.figma.com/file/yoT3EkOjfgZJtpBUTH79Jt/Figma-Test
 2. React: https://github.com/edsanol/weremote-react
