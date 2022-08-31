@@ -1,0 +1,68 @@
+@mixin reset-pm {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin h2 {
+  font-size: $font-h2-size;
+  color: $indigo-color;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@mixin label {
+  display: block;
+  margin-bottom: 0.63rem;
+  color: #ffffff;
+}
+
+@mixin input {
+  width: 100%;
+  height: 2.75rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+
+  font-family: $font-standard;
+  background-color: transparent;
+}
+
+@mixin placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+@mixin info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+@mixin img-info {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+}
+
+@mixin p-info {
+  font-size: $font-p-size;
+  color: $footer-color;
+  margin-left: 2rem;
+}
+
+@mixin footer-container {
+  width: calc(100% - 3rem);
+  margin: 0 auto;
+}
+
+@mixin p-footer {
+  font-size: $font-p-size;
+  color: #ffffff;
+}

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="El desarrollo UX/UI para weremote es un desarrollo web responsive mobile first con buenas practicas y nomencaltura BEM para estilos desarrollado con HTML, SASS y JavaScript"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>weremote - desarrollo web responsive mobile first</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__menu">
+        <button class="header--button" id="iconMenu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="header__sidemenu" id="menu-show">
+        <div class="header__sidemenu__button" id="menu-hide">
+          <button class="header__sidemenu__button--button">
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+        <div class="header__sidemenu__title">
+          <p>Embarazo</p>
+        </div>
+        <div class="header__sidemenu__elements">
+          <ul>
+            <li>
+              Quiero ser mamá
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </li>
+            <li>
+              Voy a ser mamá
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </li>
+            <li>
+              Parto
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="header__sidemenu__title">
+          <p>Educación</p>
+        </div>
+        <div class="header__sidemenu__elements">
+          <ul>
+            <li>
+              Aprende a ser mamá
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </li>
+            <li>
+              Educación para bebés
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </li>
+            <li>
+              Educación para niños
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__logo"></div>
+
+      <div class="header__search">
+        <button class="header--button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero--img" id="hero--img">
+        <div class="hero__text">
+          <div class="hero__text__title">
+            <h1>Su viaje de <span>salud emocional</span> empieza aqui</h1>
+          </div>
+
+          <div class="hero__text__subtitle">
+            <h2>Conoce nuestros profesionales con licencia</h2>
+          </div>
+
+          <div class="hero__text__paragraph">
+            <p>
+              Todos se someten a un proceso seguro de verificación y
+              acreditación, además de adherirse a estrictos códigos de ética y
+              confidencialidad
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="main">
+      <article class="main__cards">
+        <h2>ÚLTIMOS ARTÍCULOS</h2>
+        <section class="main__section-cards">
+          <div class="card">
+            <div class="card__image">
+              <img
+                src="https://i.postimg.cc/nLkS8XSh/card-mobile.jpg"
+                alt="card-image"
+              />
+            </div>
+
+            <div class="card__category">
+              <p>Nutrición</p>
+            </div>
+
+            <div class="card__title">
+              <h3>Colapso mental: Cuando siento el peso de mundo sobre mí</h3>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__image">
+              <img
+                src="https://i.postimg.cc/nLkS8XSh/card-mobile.jpg"
+                alt="card-image"
+              />
+            </div>
+
+            <div class="card__category">
+              <p>Nutrición</p>
+            </div>
+
+            <div class="card__title">
+              <h3>Colapso mental: Cuando siento el peso de mundo sobre mí</h3>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__image">
+              <img
+                src="https://i.postimg.cc/nLkS8XSh/card-mobile.jpg"
+                alt="card-image"
+              />
+            </div>
+
+            <div class="card__category">
+              <p>Nutrición</p>
+            </div>
+
+            <div class="card__title">
+              <h3>Colapso mental: Cuando siento el peso de mundo sobre mí</h3>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <section class="main__modal">
+        <div class="modal__container">
+          <div class="modal__close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__about">
+        <div class="main__about-container">
+          <h2>ACERCA DE</h2>
+
+          <div class="about__text">
+            <p>
+              La primera idea o estrategia para ayudar a los niños a ser
+              responsables es asignarles tareas sencillas. Para que la situación
+              sea más fácil, puede ser conveniente que un adulto también las
+              haga. Por ejemplo, ayudar a lavar los platos o hacer la colada con
+              alguno de los progenitores es una buena manera de empezar. Será el
+              primer paso para que adquieran autonomía: ser sus modelos. Pueden
+              recoger los platos mientras uno de los progenitores los empieza a
+              lavar.
+            </p>
+          </div>
+        </div>
+
+        <div class="about__image"></div>
+      </section>
+
+      <section class="main__testimonials">
+        <h2>TESTIMONIOS</h2>
+
+        <div class="testimonials__container">
+          <div class="testimonials__image">
+            <img
+              src="https://i.postimg.cc/4N5zgyDY/Vector.png"
+              alt="quotation-marks"
+            />
+          </div>
+
+          <div class="testimonial__messages">
+            <div class="testimonial__items">
+              <div class="testimonials__text">
+                <p>
+                  Me gustaría agradecer al sitio, me ayudó de una manera
+                  inimaginable, el psicólogo fue sumamente servicial y acogedor
+                  conmigo y me siento mejor conmigo mismo.
+                </p>
+              </div>
+
+              <div class="testimonials__author">
+                <p>~Ana Montesori~</p>
+              </div>
+            </div>
+            <div class="testimonial__items">
+              <div class="testimonials__text">
+                <p>
+                  Me gustaría agradecer al sitio, me ayudó de una manera
+                  inimaginable, el psicólogo fue sumamente servicial y acogedor
+                  conmigo y me siento mejor conmigo mismo.
+                </p>
+              </div>
+
+              <div class="testimonials__author">
+                <p>~Maria Montesori~</p>
+              </div>
+            </div>
+            <div class="testimonial__items">
+              <div class="testimonials__text">
+                <p>
+                  Me gustaría agradecer al sitio, me ayudó de una manera
+                  inimaginable, el psicólogo fue sumamente servicial y acogedor
+                  conmigo y me siento mejor conmigo mismo.
+                </p>
+              </div>
+
+              <div class="testimonials__author">
+                <p>~Miriam Montesori~</p>
+              </div>
+            </div>
+          </div>
+          <ul class="testimonials__points">
+            <li class="point active"></li>
+            <li class="point"></li>
+            <li class="point"></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="main__faq">
+        <h2>PREGUNTAS FRECUENTES</h2>
+
+        <div class="faq">
+          <div class="faq__question">
+            <h4>¿Cuáles son los pasos para tomar una decisión?</h4>
+
+            <svg class="svg" width="15" height="10" viewBox="0 0 42 25">
+              <path
+                d="M3 3L21 21L39 3"
+                stroke="white"
+                stoke-width="7"
+                stoke-linecap="round"
+              />
+            </svg>
+          </div>
+
+          <div class="faq__answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="faq__question">
+            <h4>¿Cuáles son los pasos para tomar una decisión?</h4>
+
+            <svg class="svg" width="15" height="10" viewBox="0 0 42 25">
+              <path
+                d="M3 3L21 21L39 3"
+                stroke="white"
+                stoke-width="7"
+                stoke-linecap="round"
+              />
+            </svg>
+          </div>
+
+          <div class="faq__answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="faq__question">
+            <h4>¿Cuáles son los pasos para tomar una decisión?</h4>
+
+            <svg class="svg" width="15" height="10" viewBox="0 0 42 25">
+              <path
+                d="M3 3L21 21L39 3"
+                stroke="white"
+                stoke-width="7"
+                stoke-linecap="round"
+              />
+            </svg>
+          </div>
+
+          <div class="faq__answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__contact">
+        <h2>CONTACTO</h2>
+
+        <div class="contact">
+          <div class="contact__container">
+            <div class="contact__title">
+              <h3>CONTACTANOS</h3>
+            </div>
+
+            <div class="contact__text">
+              <p>
+                Sientete libre de contactarnos cuando desees, estaremos en
+                contacto contigo en cuanto podamos.
+              </p>
+            </div>
+
+            <div class="contact__form">
+              <form>
+                <div class="contact__form__name">
+                  <label for="name">Nombre</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Ingresa tu nombre"
+                  />
+                </div>
+
+                <div class="contact__form__email">
+                  <label for="email">Email</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Ingresa tu email"
+                  />
+                </div>
+
+                <div class="contact__form__message">
+                  <label for="message">Deja tu mensaje</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="20"
+                    rows="10"
+                    placeholder="Deja tu mensaje"
+                  ></textarea>
+                </div>
+
+                <div class="contact__form__button">
+                  <button class="button" type="button" onclick="sendForm()">
+                    Enviar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="contact__info">
+            <div class="contact__info__title">
+              <h3>INFO</h3>
+            </div>
+
+            <div class="contact__info__field">
+              <img
+                src="https://i.postimg.cc/tJcyZt5q/email.png"
+                alt="letter-icon"
+              />
+              <p>info@mejorconsalud.com</p>
+            </div>
+
+            <div class="contact__info__field">
+              <img
+                src="https://i.postimg.cc/d1bzT8Sv/telephone.png"
+                alt="phone-icon"
+              />
+              <p>+1 12 34 5678</p>
+            </div>
+
+            <div class="contact__info__field">
+              <img
+                src="https://i.postimg.cc/76xm7Fs9/home.png"
+                alt="address-icon"
+              />
+              <p>14 Green Road st.</p>
+            </div>
+
+            <div class="contact__info__field">
+              <img
+                src="https://i.postimg.cc/fbvvwHz9/clock.png"
+                alt="clock-icon"
+              />
+              <p>9: 00 - 18: 00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo">
+        <img
+          src="https://i.postimg.cc/PfF0sM5x/White.png"
+          alt="mcontigo-logo"
+        />
+      </div>
+      <div class="footer__title">
+        <p>La mente es Maravillosa es una propiedad del Grupo MContigo</p>
+      </div>
+      <div class="footer__rights">
+        <p>&copy; 2012 - 2020. All rights reserved.</p>
+      </div>
+      <div class="footer__text">
+        <p>
+          Los contenidos de esta publicidad se redactan solo con fines
+          informativos. En ningún momento pueden servir para facilitar
+          diagnósticos o sustituir la labor de un profesional. Le recomendamos
+          que contacte con su especialista de confianza.
+        </p>
+      </div>
+      <div class="footer__separator"></div>
+      <div class="footer__polities">
+        <ul>
+          <li>Política de Cookies</li>
+          <li>Política de Privacidad</li>
+          <li>Términos y condiciones de uso</li>
+          <li>Cláusula informativa de Consentimiento</li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/e0ea792a46.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

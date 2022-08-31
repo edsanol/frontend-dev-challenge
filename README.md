@@ -1,42 +1,31 @@
 <p align="center">
-  <a href='https://weremote.net'>
-    <img src="https://weremote.net/wp-content/uploads/2021/04/Logo-WR.svg" width="300" />
-  </a>
+  <img src="https://weremote.net/wp-content/uploads/2021/04/Logo-WR.svg" width="300" />
 </p>
 <br />
 
 ## Descripción
-**Frontend DEV Challenge** es una prueba de admisión para desarrolladores en HTML, CSS, JavaScript.
+**Frontend DEV Challenge.** Entrega de la prueba de admisión para desarrolladores en HTML, CSS, JavaScript.
 
-## Pasos
-1. Crear un **fork** y entregar el enlace del repositorio de tu usuario. Evaluaremos la prueba en tu repositorio personal.
-2. Utilizar el diseño que debe finalizar y que está disponible en Figma (solo una pantalla): https://www.figma.com/file/FxX6dCznISsNkztnRa59Rf/Figma-Test?node-id=0%3A1
-3. Montar el código en HTML5, CSS3 y JS con efectos y animaciones.
-4. Usar buenas prácticas de HTML para SEO.
+## Características
+1. Diseño del Figma previo a la maquetación
+2. Figma con prototipos, auto-layout, frames y componentes
+3. Diseño responsive Mobile first fiel al diseño del Figma
+4. Código autodescriptivo
+5. Nomenclatura BEM para los estilos
+6. Funcionalidades sin librerías de terceros, solo HTML, CSS y JavaScript
+7. Estilos desarrollados con SASS, separados por carpetas y archivos por tipo
+8. Diseño creativo de la página web
+9. Desarrollado también en React
 
-## Buenas prácticas y sugerencias
-1. Mobile first.
-2. Layout responsive y cross-browser.
-3. Código legible y bien estructurado.
-4. HTML optimizado para SEO.
-5. Idioma del código y comentarios en inglés.
-6. Se puede utilizar una UI lib **solo para el GRID**, el resto debe ser desarrollado (colores, textos, botones, forms, paddings, margins, etc).
-7. **CSS**  
-a. Usar animaciones simples de hover, animaciones de mensaje del formulario o de búsqueda, etc. 
-b. Usar **nomenclatura BEM** para estilos.   
-c. Utilizar los estilos de color y textos **creados en Figma**.   
-d. Utilizar 8px GRID para espacios, paddings, margins.  
-e. Si se considera necesario, se pueden utilizar variables.  
-8. **JavaScript**  
-a. **No utilizar jQuery**, solamente JS puro ES6.  
-b. Utilizar la nomenclatura **camelCase**.  
-c. Como sugerencia: recomendamos crear una función de *alert* para enviar el formulario (puede ser envío falso, solo una alerta), un Listener de scroll para mostrar/ocultar algún botón o el banner fijo/flotante, click del FAQ/Accordion, abrir y cerrar un modal.
+## Funcionalidades
+1. Header fijo transparente dentro del hero y toma color al hacer scroll
+2. Menú que abre y cierra
+3. Hero rotatorio, cambia su imagen de background cada 5 segundos de forma automatica y se detiene la animación cuando el hero ya no está visible en la pantalla
+4. FAQ de tipo accordion
+5. Caja de testimonios con slider
+6. Modal que abre y cierra al hacer click en los articulos
+7. Formulario de contacto
 
-## Plus
-1. Componer el proyecto en **ReactJS** (no olvidar añadir el readme al proyecto final).
-2. SCSS/SASS
-
-## Fecha límite
-1. Siete días (7 días) a partir del correo electrónico de envío del Desafío Tech. La fecha exacta está en el correo electrónico.
-2. Notificar en el correo electrónico la finalización y enviar solamente la url del repositorio para evaluación.
-3. Utilizar siempre en el correo electrónico la opción "Responder a todos".
+## Links
+1. Figma: https://www.figma.com/file/yoT3EkOjfgZJtpBUTH79Jt/Figma-Test?node-id=0%3A1
+2. React: https://github.com/edsanol/weremote-react.git

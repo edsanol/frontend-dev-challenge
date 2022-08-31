@@ -1,0 +1,21 @@
+html,
+body {
+  font-family: $font-standard;
+  background-color: #F1F1F1;
+}
+
+#dark__mode--theme {
+  background-color: $indigo-color-dark;
+}
+
+#dark__mode--themedark {
+  background-color: $indigo-color-moredark;
+}
+
+#dark__mode--text {
+  color: $purple-color;
+}
+
+#dark__mode--textwhite {
+  color: #fffff1;
+}
