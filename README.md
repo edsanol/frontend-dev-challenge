@@ -4,7 +4,7 @@
 <br />
 
 ## Descripción
-**Frontend DEV Challenge.** Entrega de la prueba de admisión para desarrolladores en HTML, CSS, JavaScript.
+**Frontend DEV Challenge.** Entrega de la prueba de admisión para desarrolladores en HTML, SASS, JavaScript.
 
 ## Características
 1. Diseño del Figma previo a la maquetación
@@ -12,7 +12,7 @@
 3. Diseño responsive Mobile first fiel al diseño del Figma
 4. Código autodescriptivo
 5. Nomenclatura BEM para los estilos
-6. Funcionalidades sin librerías de terceros, solo HTML, CSS y JavaScript
+6. Funcionalidades sin librerías de terceros, solo HTML, SASS y JavaScript
 7. Estilos desarrollados con SASS, separados por carpetas y archivos por tipo
 8. Diseño creativo de la página web
 9. Desarrollado también en React
@@ -28,4 +28,4 @@
 
 ## Links
 1. Figma: https://www.figma.com/file/yoT3EkOjfgZJtpBUTH79Jt/Figma-Test?node-id=0%3A1
-2. React: https://github.com/edsanol/weremote-react.git
+2. React: https://github.com/edsanol/weremote-react
